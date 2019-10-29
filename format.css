@@ -1,0 +1,148 @@
+body{
+        background-color:FFFFFF;
+        color:#FFFFFF;
+        font-family:Arial;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-shopping-cart {
+ background: #000000;
+ color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+ background: purple;
+ color: white;
+}
+
+header{
+width: 100%;
+background-color:#FFFFFF;
+padding: 5px;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:black;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color:white;
+  color: black;
+}
+.topnav a.active {
+  background-color: #ff8c00;
+  color: white;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right:16px;
+  font-size: 17px;
+}
+
+
+.login-container {
+  float: right;
+}
+
+.login-container input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  background-color:#d3d3d3;
+  width: 150px; 
+}
+
+
+.login-container button {
+  padding: 6px;
+  background: orange;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background: #ccc;
+}
+
+.login-container {
+    float: none;
+  }
+
+
+.card {
+  max-width: 250px;
+  margin: auto;
+  text-align: center;
+  color:black;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color:white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+footer {
+  font-family: Times New Roman;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
+
